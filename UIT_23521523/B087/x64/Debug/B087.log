@@ -1,0 +1,4 @@
+﻿  B087.cpp
+D:\Code\BT mảng\UIT_23521523\B087\B087.cpp(12,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B087\B087.cpp(14,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  B087.vcxproj -> D:\Code\BT mảng\UIT_23521523\x64\Debug\B087.exe

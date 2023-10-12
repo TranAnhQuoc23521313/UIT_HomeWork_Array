@@ -1,0 +1,4 @@
+﻿  B117.cpp
+D:\Code\BT mảng\UIT_23521523\B117\B117.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B117\B117.cpp(12,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  B117.vcxproj -> D:\Code\BT mảng\UIT_23521523\x64\Debug\B117.exe

@@ -1,0 +1,6 @@
+﻿  B092.cpp
+D:\Code\BT mảng\UIT_23521523\B092\B092.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B092\B092.cpp(12,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B092\B092.cpp(22,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B092\B092.cpp(23,14): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  B092.vcxproj -> D:\Code\BT mảng\UIT_23521523\x64\Debug\B092.exe

@@ -1,0 +1,4 @@
+﻿  B042.cpp
+D:\Code\BT mảng\UIT_23521523\B042\B042.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code\BT mảng\UIT_23521523\B042\B042.cpp(13,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  B042.vcxproj -> D:\Code\BT mảng\UIT_23521523\x64\Debug\B042.exe
