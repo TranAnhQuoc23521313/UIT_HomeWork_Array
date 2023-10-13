@@ -23,7 +23,7 @@ int main()
 {
 	int b[100];
 	int n;
-	Nhap("MangMotChieu.txt", b, n);
+	Nhap("MangMotChieu.inp", b, n);
 	Xuat(b, n);
 	return 0;
 }
