@@ -6,3 +6,5 @@ Quy tắc:
   Các thành viên phải vào tham khảo code lẫn nhau thường xuyên để check lỗi sai và thiếu sót
   Không được tự ý xoá project dưới mọi hình thức.
   Nếu có thắc mắc liên hệ Trần Anh Quốc để được giải đáp kĩ hơn.
+
+Các file UIT_ là do các thành viên làm rồi sau đó được tổng hợp lại để gộp thành 1 solution duy nhất.
