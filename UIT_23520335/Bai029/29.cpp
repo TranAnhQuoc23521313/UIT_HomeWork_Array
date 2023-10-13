@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+void nhap(int a[], int& n);
 int chan_dau(int[], int);
 int chan_lon_nhat(int[], int);
 void liet_ke(int[], int);
@@ -8,20 +9,24 @@ void liet_ke(int[], int);
 int main()
 {
 	int n;
+	int a[10000];
+	nhap(a, n);
+	liet_ke(a, n);
+
+	return 0;
+}
+
+void nhap(int a[], int& n)
+{
 	cout << "Nhap so luong phan tu cua mang: ";
 	cin >> n;
 
-	int a[10000];
 	cout << "Nhap cac gia tri cua mang: " << endl;
 	for (int i = 0; i < n; i++)
 	{
 		cout << "a[" << i << "]: ";
 		cin >> a[i];
 	}
-
-	liet_ke(a, n);
-
-	return 0;
 }
 
 int chan_dau(int a[], int n)

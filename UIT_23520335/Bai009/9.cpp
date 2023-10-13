@@ -1,26 +1,32 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
+void nhap(int[], int&);
 int chu_so_dau(int n);
 void liet_ke(int a[], int n);
 
 int main()
 {
 	int n;
+	int a[10000];
+	nhap(a, n);
+	liet_ke(a, n);
+
+	return 0;
+}
+
+void nhap(int a[], int &n)
+{
 	cout << "Nhap so luong phan tu cua mang: ";
 	cin >> n;
 
-	int a[10000];
 	cout << "Nhap cac gia tri cua mang: " << endl;
 	for (int i = 0; i < n; i++)
 	{
 		cout << "a[" << i << "]: ";
 		cin >> a[i];
 	}
-
-	liet_ke(a, n);
-
-	return 0;
 }
 
 int chu_so_dau(int n)

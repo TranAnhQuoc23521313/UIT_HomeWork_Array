@@ -3,6 +3,7 @@
 #include<cmath>
 using namespace std;
 
+void nhap(int a[], int& n);
 int vi_tri_duong_dau(int[], int);
 int vi_tri_duong_nho_nhat(int[], int);
 int tim_chu_so(int[], int);
@@ -10,18 +11,23 @@ int tim_chu_so(int[], int);
 int main()
 {
 	int n;
+	int a[10000];
+	nhap(a, n);
+	cout << tim_chu_so(a, n);
+	return 0;
+}
+
+void nhap(int a[], int& n)
+{
 	cout << "Nhap so luong phan tu cua mang: ";
 	cin >> n;
 
-	int a[10000];
 	cout << "Nhap cac gia tri cua mang: " << endl;
 	for (int i = 0; i < n; i++)
 	{
 		cout << "a[" << i << "]: ";
 		cin >> a[i];
 	}
-	cout << tim_chu_so(a, n);
-	return 0;
 }
 
 int vi_tri_duong_dau(int a[], int n)
